@@ -1,20 +1,34 @@
-# Exercise 5 — Inheritance and override
+# Exercise 5 — Create a second object with its own state
 
-Goal: Add a new derived class `PhysicalProduct` that extends `Product` and adds `Weight`.
+Goal: Build a second kind of object that uses the same idea as `Product`, but keeps separate state.
 
 Steps:
-1. Create `PhysicalProduct` in `Inheritance.cs` or a new file.
-2. Add a `public decimal Weight { get; set; }` property.
-3. Override `CalculateTax` to make tax depend on weight (toy example):
+1. Open `CSharpBasics/Product.cs` and review the `Product` class.
+2. Create a new class in a new file, for example `ShoppingCartItem.cs`.
+3. Give it properties such as:
 
 ```csharp
-public override decimal CalculateTax(decimal taxRate)
+public string ProductName { get; set; } = string.Empty;
+public int Quantity { get; set; }
+public decimal Price { get; set; }
+```
+
+4. Add a method that calculates the line total:
+
+```csharp
+public decimal GetLineTotal()
 {
-    return Price * taxRate + Weight * 0.01m; // extra tax per unit weight
+    return Quantity * Price;
 }
 ```
 
-4. In `Program.cs`, create a `PhysicalProduct` and print its tax.
+5. In `Program.cs`, create two cart items and print each line total.
+
+Hints:
+- Each object should hold its own values.
+- A class is a blueprint, and an object is a specific instance with its own state.
 
 Verify:
-- Run the app and confirm the overridden tax value appears.
+- Run the app and confirm each item keeps its own quantity and price values.
+
+This exercise is preparing the learner for the later examples in `Interfaces.cs` and `Inheritance.cs`, which are more advanced patterns.

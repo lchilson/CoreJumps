@@ -1,18 +1,38 @@
-# Exercise 4 — Implement an interface
+# Exercise 4 — Add a constructor and initialize state
 
-Goal: Add a repository implementation that persists products to a file (simple text file).
+Goal: Give each `Product` a sensible default state when it is created.
 
 Steps:
-1. Open `CSharpBasics/Interfaces.cs` and review `IProductRepository` and `InMemoryProductRepository`.
-2. Create a new class `FileProductRepository` in the same file or a new file `FileProductRepository.cs`.
-3. Implement `GetById` and `Save` to write/read lines to `products.txt` in the project folder. Keep format simple: `id|name|price`.
+1. Open `CSharpBasics/Product.cs`.
+2. Look at the constructor:
+
+```csharp
+public Product(string name, decimal price)
+{
+    Name = name;
+    Price = price;
+}
+```
+
+3. Add an initialization that also sets the status and a safe default description:
+
+```csharp
+public Product(string name, decimal price)
+{
+    Name = name;
+    Price = price;
+    Status = ProductStatus.Draft;
+    Description = string.Empty;
+}
+```
+
+4. Update `Program.cs` to create a product in a way that clearly shows the starting state.
 
 Hints:
-- Use `File.AppendAllLines` or `File.WriteAllText` for simple persistence.
-- Parse strings using `string.Split('|')` to reconstruct `Product` objects.
+- A constructor runs when you create an object with `new`.
+- It is a great place to make sure the object starts in a valid state.
 
 Verify:
-- Replace `IProductRepository repo = new InMemoryProductRepository();` in `Program.cs` with `new FileProductRepository()` and run the app.
-- Confirm `products.txt` is created and contains the saved product line.
+- Run the app and confirm each newly created product starts with a sensible default state.
 
-Safety note: this is just a simple exercise — real apps use structured formats (JSON) and error handling.
+Late-lesson idea: after this, revisit the interface and repository examples in `Interfaces.cs` as a more advanced design pattern.

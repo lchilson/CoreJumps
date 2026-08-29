@@ -2,12 +2,15 @@ using System;
 using MyStore.Products;
 
 /*
- Beginner-friendly demo program.
+ Reference demo for later in the learning path.
  Run with: dotnet run --project CSharpBasics
 
- This file walks through creating instances, calling methods,
- and demonstrates parameters vs arguments, local variables,
- access modifiers, static usage, interfaces, enums and inheritance.
+ This file intentionally shows many C# ideas together so you can see
+ how they connect after the basics are already understood.
+
+ Early lessons should focus on smaller steps: variables, conditions,
+ loops, methods, and object state before trying to understand the
+ full example in one pass.
 */
 
 namespace MyStore.Demo

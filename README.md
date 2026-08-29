@@ -145,6 +145,10 @@ Full-Stack Integration
 Testing + Architecture + Deployment
 ```
 
+## Teaching note
+
+This repository is designed for gradual learning, not for dumping a full language overview at once. Start with the simplest console concepts and only move to the richer examples after the learner can explain what is happening in plain language.
+
 ## Agent files
 
 The custom agent definitions are located at:

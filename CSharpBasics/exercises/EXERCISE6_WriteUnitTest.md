@@ -36,6 +36,9 @@ dotnet test CSharpBasics.Tests
 
 Hints:
 - Tests run separately from the app and are a safety net when you change code.
+- This is a good place to add validation once the learner understands objects, methods, and expected behavior.
 
 Verify:
 - The test run should pass.
+
+This optional exercise can come after the learner has already seen object state, methods, and constructor behavior. The interface-based and inheritance-based demos remain available as later reference material.
