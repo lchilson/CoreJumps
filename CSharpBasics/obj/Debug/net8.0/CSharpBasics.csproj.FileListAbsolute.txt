@@ -1,0 +1,14 @@
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\obj\Debug\net8.0\CSharpBasics.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\obj\Debug\net8.0\CSharpBasics.AssemblyInfoInputs.cache
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\obj\Debug\net8.0\CSharpBasics.AssemblyInfo.cs
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\obj\Debug\net8.0\CSharpBasics.csproj.CoreCompileInputs.cache
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\bin\Debug\net8.0\CSharpBasics.exe
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\bin\Debug\net8.0\CSharpBasics.deps.json
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\bin\Debug\net8.0\CSharpBasics.runtimeconfig.json
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\bin\Debug\net8.0\CSharpBasics.dll
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\bin\Debug\net8.0\CSharpBasics.pdb
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\obj\Debug\net8.0\CSharpBasics.dll
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\obj\Debug\net8.0\refint\CSharpBasics.dll
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\obj\Debug\net8.0\CSharpBasics.pdb
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\obj\Debug\net8.0\CSharpBasics.genruntimeconfig.cache
+c:\Users\louis\Desktop\CoreJumps\CSharpBasics\obj\Debug\net8.0\ref\CSharpBasics.dll
